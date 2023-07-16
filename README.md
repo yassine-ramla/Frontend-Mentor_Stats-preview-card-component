@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://yassine-ramla.github.io/Frontend-Mentor_Stats-preview-card-component/)
-- Live Site URL: [live site URL](https://www.frontendmentor.io/solutions/a-simple-state-preview-card-component-QYErJAP5sy)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/a-simple-state-preview-card-component-QYErJAP5sy)
+- Live Site URL: [live site URL](https://yassine-ramla.github.io/Frontend-Mentor_Stats-preview-card-component/)
 
 ## My process
 
