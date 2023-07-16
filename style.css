@@ -91,10 +91,10 @@ footer a:hover {
     }
 
     .container {
-        height: 60vmin;
+        height: 75vmin;
         width: 100%;
+        max-height: 500px;
         min-width: 600px;
-        max-height: 450px;
         max-width: 900px;
         display: flex;
         flex-direction: row-reverse;
@@ -116,7 +116,7 @@ footer a:hover {
         position: absolute;
         left: 0;
         top: 0;
-        background-color: hsla(277, 64%, 61%, 0.5);
+        background-color: hsla(277, 64%, 61%, 0.25);
     }
 
     header img {
