@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+body {
+    width: 100vw;
+    height: fit-content;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 5vw;
+}
+
+.container {
+    height: fit-content;
+    width: 90vw;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+main {
+    padding: 50px 7vw;
+}
+
+main section h1,
+.static h1 {
+    color: white;
+}
+
+main section>h1 {
+    padding: 5vw;
+}
+
+main section h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+
+main section>p {
+    padding: 5vw;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.static {
+    margin: 5vmin 0 10vw;
+}
+
+.static p {
+    margin-top: 8px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 750px) {
+    * {
+        text-align: left;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    body {
+        height: 100vh;
+        padding: 25vmin;
+    }
+
+    .container {
+        height: 60vmin;
+        width: 100%;
+        min-width: 600px;
+        max-height: 450px;
+        max-width: 900px;
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 10px;
+    }
+
+    header {
+        height: 100%;
+        width: 50%;
+        border-radius: 0 10px 10px 0;
+        position: relative;
+    }
+
+    header::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: hsla(277, 64%, 61%, 0.5);
+    }
+
+    header img {
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    main {
+        width: 50%;
+        padding: 6% 8% 6% 6%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    main section>h1 {
+        padding: 0;
+    }
+
+
+    main section>p {
+        padding: 0;
+        margin-top: 8%;
+    }
+
+    .statics {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .static {
+        margin: 0;
+        margin-right: 5%;
+    }
+}
